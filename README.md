@@ -36,6 +36,10 @@ The repository ships with a small fictional demo dataset, so the complete applic
   </tr>
 </table>
 
+<img width="1900" height="1078" alt="image" src="https://github.com/user-attachments/assets/6436151b-bf0d-4ff6-a38a-9aee607fd5c1" />
+<img width="1897" height="1078" alt="image" src="https://github.com/user-attachments/assets/6684701d-7e23-45ce-9f5d-072e028658fa" />
+<img width="1915" height="1073" alt="image" src="https://github.com/user-attachments/assets/33c39559-b666-49f9-a367-90184e2f8035" />
+
 The interface includes:
 
 - A responsive powder-blue clinical dashboard with accessible dialogs and minimal motion
