@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-02T00:00:00Z",
+    "total_patients": 4,
+    "model_name": "demo-stored-predictions",
+    "model_auroc": 0.9693,
+    "cohort_auroc": 0.9548,
+    "cohort_auprc": 0.8843
+  },
+  "summary": {
+    "risk_distribution": {
+      "Low Risk": {"count": 1, "percentage": 25.0},
+      "Medium Risk": {"count": 1, "percentage": 25.0},
+      "High Risk": {"count": 1, "percentage": 25.0},
+      "Critical Risk": {"count": 1, "percentage": 25.0}
+    },
+    "high_risk_alerts": 2,
+    "critical_risk_alerts": 1
+  },
+  "patients": [
+    {
+      "patient_id": "DEMO-001", "name": "Demo Patient A", "age": 46, "gender": "female", "last_encounter": "2026-09-18",
+      "risk_probability": 0.06, "risk_percentage": 6.0, "level": "Low Risk", "color": "green", "priority": 1,
+      "conditions": {"diabetes": 0, "hypertension": 0, "heart_disease": 0, "kidney_disease": 0, "stroke": 0, "copd": 0, "other_conditions": [], "total_conditions": 0},
+      "vitals": {"bmi": 23.4, "weight": 63.1, "temperature": 36.8},
+      "labs": {"glucose": 88.0, "hba1c": 5.3, "creatinine": 0.8, "cholesterol": 174.0},
+      "care_duration_days": 420, "procedure_count": 1, "avg_encounter_duration": 28.0, "actual_outcome": 0, "risk_factors": []
+    },
+    {
+      "patient_id": "DEMO-002", "name": "Demo Patient B", "age": 62, "gender": "male", "last_encounter": "2026-09-12",
+      "risk_probability": 0.18, "risk_percentage": 18.0, "level": "Medium Risk", "color": "yellow", "priority": 2,
+      "conditions": {"diabetes": 1, "hypertension": 0, "heart_disease": 0, "kidney_disease": 0, "stroke": 0, "copd": 0, "other_conditions": [], "total_conditions": 1},
+      "vitals": {"bmi": 29.1, "weight": 84.2, "temperature": 37.0},
+      "labs": {"glucose": 118.0, "hba1c": 6.4, "creatinine": 1.1, "cholesterol": 205.0},
+      "care_duration_days": 810, "procedure_count": 3, "avg_encounter_duration": 34.0, "actual_outcome": 0, "risk_factors": []
+    },
+    {
+      "patient_id": "DEMO-003", "name": "Demo Patient C", "age": 71, "gender": "female", "last_encounter": "2026-09-25",
+      "risk_probability": 0.39, "risk_percentage": 39.0, "level": "High Risk", "color": "orange", "priority": 3,
+      "conditions": {"diabetes": 1, "hypertension": 1, "heart_disease": 0, "kidney_disease": 0, "stroke": 0, "copd": 0, "other_conditions": [], "total_conditions": 2},
+      "vitals": {"bmi": 31.8, "weight": 78.4, "temperature": 37.6},
+      "labs": {"glucose": 142.0, "hba1c": 7.4, "creatinine": 1.2, "cholesterol": 228.0},
+      "care_duration_days": 1230, "procedure_count": 6, "avg_encounter_duration": 42.0, "actual_outcome": 0, "risk_factors": []
+    },
+    {
+      "patient_id": "DEMO-004", "name": "Demo Patient D", "age": 79, "gender": "male", "last_encounter": "2026-09-29",
+      "risk_probability": 0.68, "risk_percentage": 68.0, "level": "Critical Risk", "color": "red", "priority": 4,
+      "conditions": {"diabetes": 1, "hypertension": 1, "heart_disease": 1, "kidney_disease": 0, "stroke": 0, "copd": 0, "other_conditions": [], "total_conditions": 3},
+      "vitals": {"bmi": 34.2, "weight": 92.0, "temperature": 38.2},
+      "labs": {"glucose": 176.0, "hba1c": 8.1, "creatinine": 1.4, "cholesterol": 246.0},
+      "care_duration_days": 1680, "procedure_count": 9, "avg_encounter_duration": 51.0, "actual_outcome": 1, "risk_factors": []
+    }
+  ]
+}
